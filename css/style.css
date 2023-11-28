@@ -1,6 +1,6 @@
 body{
     background-image: url(../img/bg.webp);
-    background-size: 100% 100%;
+    background-size: 2000px ;
     background-repeat: no-repeat;
     font-size: 18px;
     font-family: 'Playfair Display', serif;
@@ -126,7 +126,7 @@ h4{
     text-align: justify;
     height: 100%;
     width: 27%;
-    background-image: url(../img/bgcart2.png);
+    background-image: url(../img/bgcart2.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 10px;

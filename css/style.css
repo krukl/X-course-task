@@ -461,7 +461,7 @@ h4{
         width: 100%;
     }
     h1{
-        font-size: 16px;
+        font-size: 18px;
     }
     p, label{
         font-family: 'Merriweather', serif;
@@ -500,12 +500,12 @@ h4{
     
     }
     .cart button{
-        width: 100px;
+        width: 80px;
         height: 30px;
         background-color: rgb(82, 152, 82);
         border: none;
         border-radius: 10px;
-        font-size: 16px;
+        font-size: 14px;
         color: white;
         margin: 0 10px 0 10px;
     }
@@ -514,17 +514,28 @@ h4{
         color:  rgb(82, 152, 82);
     
     }
-    .cart p{
+    #name {
+        position: absolute;
+        margin-top: 80px;
+        margin-right: 15px;
+        width: 20%;
+        text-align: end;
+        color: rgb(10, 71, 37);
+        text-shadow: 1px 1px 2px rgb(255, 255, 255);
         font-size: 16px;
-        margin: 0 0 0 20px;
+    }
+    #sign {
+        position: absolute;
+        margin-top: 120px;
+        margin-right: 10px;
     }
     .block{
         display: inline-flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        padding-top: 65px;
-        margin: 0 10px;
+        padding-top: 60px;
+        margin: 0 5px;
     }
     .book{
         width: 100%;
@@ -559,28 +570,13 @@ h4{
         padding-left: 30px;
     }
     h4{
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 0;
         margin-top: 0;
     }
     .book p {
         font-size: 20px;
         margin-top: 0;
-    }
-    #name {
-        position: absolute;
-        padding-top: 70px;
-        margin-right: 15px;
-        width: 20%;
-        text-align: end;
-        color: rgb(10, 71, 37);
-        text-shadow: 1px 1px 2px rgb(255, 255, 255);
-        font-size: 20px;
-    }
-    #sign {
-        position: absolute;
-        margin-top: 130px;
-        margin-right: 10px;
     }
     .bookname {
         position: absolute;

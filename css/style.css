@@ -481,7 +481,6 @@ h4{
     .header{
         display: inline-flex;
         justify-content: flex-start;
-        width: 75%;
     }
     .header img{
         width: 40px;
@@ -491,6 +490,7 @@ h4{
         flex-wrap: wrap;
         justify-content: space-between;
         width: 100%;
+        min-width: 362px;
     }
     .cart{
         display: inline-flex;

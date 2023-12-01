@@ -540,46 +540,42 @@ h4{
     .book{
         width: 100%;
         height: 400px;
-        margin-left: 1%;
+        min-width: 400px;
         background-color: rgba(255, 255, 255, 0.8);
         margin: 5px 0 0 0;
         z-index: 2;
     }
     .bookname {
+        position: absolute;
         display: inline-flex;
         align-items: center;
         text-shadow: rgb(82, 152, 82) 1px 0 10px;
-    }
-    .bookname p {
-        padding-top: 25px;
-        padding-left: 10px;
+        padding-top: 5px;
+        width: 100%;
+        min-width: 400px;
     }
     .bookinfo {
         display: inline-flex;
-        justify-content: space-between;
         align-items: center;
+    }
+    .bookinfo p {
+        font-size: 18px;
+        margin-top: 0;
     }
     .book img{
         height: 100%;
-        margin-top: 50px;
+        margin-top: 60px;
         width: 200px;
         box-shadow: 0px 0px 10px 5px  rgb(82, 152, 82);
     }
     .book div{
         font-size: 20px;
-        padding-left: 30px;
+        padding-left: 15px;
     }
     h4{
         font-size: 20px;
         margin-bottom: 0;
         margin-top: 0;
-    }
-    .book p {
-        font-size: 20px;
-        margin-top: 0;
-    }
-    .bookname {
-        position: absolute;
     }
     .form{
         display: flex;

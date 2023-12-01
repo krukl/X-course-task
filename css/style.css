@@ -168,6 +168,9 @@ h4{
     color: rgb(10, 71, 37);
     text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
+#buy {
+    display: none;
+}
 .aboutbook{
     display: inline-flex;
     width: 100%;
@@ -390,6 +393,9 @@ h4{
         color: rgb(10, 71, 37);
         text-shadow: 1px 1px 2px rgb(255, 255, 255);
     }
+    #buy {
+        display: none;
+    }
     .aboutbook{
         display: flex;
         align-items: flex-start;
@@ -534,6 +540,7 @@ h4{
         justify-content: space-between;
         align-items: center;
         padding-top: 55px;
+        width: 100%;
     }
     .book{
         width: 100%;
@@ -599,7 +606,7 @@ h4{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 40%;
+        width: 50%;
         padding-left: 10px;
         text-shadow: 1px 1px 2px rgb(255, 255, 255);
         font-weight: bold;
@@ -627,6 +634,26 @@ h4{
         background-image: none;
         color: rgb(10, 71, 37);
         text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    }
+    #hide {
+        display: none;
+    }
+    #price {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 5px 10px; 
+        font-size: 24px;
+        margin: 0;
+    }
+    #buy {
+        background-color: rgba(255, 255, 255, 0.8);
+        background-image: none;
+        color: rgb(10, 71, 37);
+        padding: 5px 10px; 
+        font-size: 24px;
+        box-shadow: 0px 0px 10px 2px  rgb(82, 152, 82);
+        border-radius: 5px;
+        margin: 0 5px 0 0;
+        width: 30%;
     }
     .aboutbook{
         display: flex;
@@ -666,8 +693,7 @@ h4{
         justify-content: space-around;
         width: 100%;
         background-color:  rgba(255, 255, 255, 0.3);
-        border-radius: 10px;
-        margin: 5px 0 10px 0;
+        margin: 10px 0 10px 0;
     }
     .nav a{
         text-decoration: none;

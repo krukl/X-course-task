@@ -639,21 +639,21 @@ h4{
         display: none;
     }
     #price {
+        display: inline-flex;
+        justify-content: flex-start;
         background-color: rgba(255, 255, 255, 0.8);
         padding: 5px 10px; 
-        font-size: 24px;
         margin: 0;
     }
     #buy {
-        background-color: rgba(255, 255, 255, 0.8);
+        color: white;
         background-image: none;
-        color: rgb(10, 71, 37);
-        padding: 5px 10px; 
+        background-color: rgba(255,255,255,0);
+        text-shadow: 1px 1px 5px rgb(10, 71, 37);
+        padding: 0 10px; 
         font-size: 24px;
-        box-shadow: 0px 0px 10px 2px  rgb(82, 152, 82);
-        border-radius: 5px;
         margin: 0 5px 0 0;
-        width: 30%;
+        width: 40%;
     }
     .aboutbook{
         display: flex;

@@ -14,6 +14,7 @@ header {
     background-color: rgba(10, 71, 37,0.9);
     color: white;
     position: fixed;
+    z-index: 1;
 }
 main{
     display: inline-flex;
@@ -140,6 +141,7 @@ p, label, a{
         background-color: rgba(10, 71, 37,0.9);
         color: white;
         position: fixed;
+        z-index: 1;
     }
     main{
         display: inline-flex;
@@ -265,6 +267,7 @@ p, label, a{
         background-color: rgba(10, 71, 37,0.9);
         color: white;
         position: fixed;
+        z-index: 1;
     }
     main{
         display: inline-flex;

@@ -120,6 +120,7 @@ p, label, a{
 }
 .emrtycart img{
     width: 250px;
+    z-index: 0;
 }
 .buy {
     width: 100%;
@@ -246,6 +247,7 @@ p, label, a{
     }
     .emrtycart img{
         width: 200px;
+        z-index: 0;
     }
     .buy {
         width: 100%;
@@ -380,6 +382,7 @@ p, label, a{
     }
     .emrtycart img{
         width: 150px;
+        z-index: 0;
     }
     .buy {
         width: 100%;

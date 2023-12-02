@@ -149,7 +149,7 @@ form button:hover{
     }
     .block img {
         margin-top: 50px;
-        width: 200px;
+        width: 280px;
         border: 10px solid white;
         box-shadow: 0px 0px 10px 5px  rgb(82, 152, 82);
         z-index: 1;
@@ -159,7 +159,7 @@ form button:hover{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 220px;
+        width: 300px;
     }
     form p {
         font-size: 18px;

@@ -1,0 +1,393 @@
+body{
+    background-image: url(../img/bg.webp);
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+@media screen and (min-width: 1025px) {
+header {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(10, 71, 37,0.9);
+    color: white;
+    position: fixed;
+}
+main{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+h1{
+    font-size: 25px;
+}
+p, label, a{
+    font-family: 'Merriweather', serif;
+}
+.header{
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 40%;
+}
+.header img{
+    width: 70px;
+}
+.center{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 0 10px;
+}
+.cart{
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 55%;
+    padding-right: 30px;
+}
+
+.cart img{
+    height: 50px;
+    margin: 0 20px 0 20px;
+}
+#sign{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(82, 152, 82);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+#sign:hover{
+    background-color: white;
+    color:  rgb(82, 152, 82);
+}
+.cart p{
+    font-size: 18px;
+    margin: 0 0 0 20px;
+}
+.nav{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color:  rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin: 85px 10px 10px 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(10, 71, 37);
+    font-size: 25px;
+}
+.nav a:hover{
+    color: rgb(10, 71, 37);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+.block{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bgcart2.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0px 0px 10px 5px  rgb(82, 152, 82);
+    margin: 5px 10px 10px 10px;
+}
+.emrtycart {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+    color: rgb(10, 71, 37);
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px  rgb(255, 255, 255);
+    margin: 2px;
+    
+}
+.emrtycart img{
+    width: 250px;
+}
+.buy {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-image: linear-gradient(to top, rgb(10, 71, 37), rgb(255,255,255));
+    border: none;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    font-size: 28px;
+    margin-bottom: 0;
+}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+        background-color: rgba(10, 71, 37,0.9);
+        color: white;
+        position: fixed;
+    }
+    main{
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+    }
+    h1{
+        font-size: 22px;
+    }
+    p, label, a{
+        font-family: 'Merriweather', serif;
+    }
+    .header{
+        display: inline-flex;
+        justify-content: flex-start;
+        width: 45%;
+    }
+    .header img{
+        width: 50px;
+    }
+    .center{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .cart{
+        display: inline-flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+        padding-right: 30px;
+    }
+    
+    .cart img{
+        height: 50px;
+        margin: 0 20px 0 20px;
+    }
+    #sign{
+        width: 100px;
+        height: 20px;
+        background-color: rgb(82, 152, 82);
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        margin: 0 20px 0 20px;
+        padding: 5px;
+        text-decoration: none;
+    }
+    #sign:hover{
+        background-color: white;
+        color:  rgb(82, 152, 82);
+    }
+    .cart p{
+        font-size: 18px;
+        margin: 0 0 0 20px;
+    }
+    .nav{
+        display: inline-flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color:  rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        margin: 70px 10px 10px 10px;
+    }
+    .nav a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(10, 71, 37);
+        font-size: 22px;
+    }
+    .nav a:hover{
+        color: rgb(10, 71, 37);
+        text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    }
+    .block{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/bgcart2.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        box-shadow: 0px 0px 10px 5px  rgb(82, 152, 82);
+        margin: 5px 10px 10px 10px;
+    }
+    .emrtycart {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        font-size: 20px;
+        color: rgb(10, 71, 37);
+        background-color: white;
+        box-shadow: 0px 0px 10px 5px  rgb(255, 255, 255);
+        
+    }
+    .emrtycart img{
+        width: 200px;
+    }
+    .buy {
+        width: 100%;
+        height: 50px;
+        border: none;
+        background-image: linear-gradient(to top, rgb(10, 71, 37), rgb(255,255,255));
+        border: none;
+        color: white;
+        text-shadow: 1px 1px 2px rgb(255, 255, 255);
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    header {
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+        background-color: rgba(10, 71, 37,0.9);
+        color: white;
+        position: fixed;
+    }
+    main{
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+    }
+    h1{
+        font-size: 18px;
+    }
+    p, label, a{
+        font-family: 'Merriweather', serif;
+    }
+    .header{
+        display: inline-flex;
+        justify-content: flex-start;
+    }
+    .header img{
+        width: 40px;
+    }
+    .center{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        min-width: 362px;
+    }
+    .cart{
+        display: inline-flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 20%;
+    }
+    
+    .cart img{
+        height: 30px;
+        margin: 0 10px 0 10px;
+    }
+    #name {
+        position: absolute;
+        margin-top: 170px;
+        margin-right: 15px;
+        width: 20%;
+        text-align: end;
+        color: rgb(10, 71, 37);
+        text-shadow: 1px 1px 2px rgb(255, 255, 255);
+        font-size: 16px;
+    }
+    #sign {
+        position: absolute;
+        margin-top: 120px;
+        margin-right: 10px;
+        width: 80px;
+        height: 20px;
+        background-color: rgb(82, 152, 82);
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        color: white;
+        margin: 90px 10px 0 10px;
+        text-decoration: none;
+        text-align: center;
+        padding: 5px;
+        font-family: ;
+    }
+    #sign:hover{
+        background-color: white;
+        color:  rgb(82, 152, 82);
+    
+    }
+    .nav{
+        display: inline-flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color:  rgba(255, 255, 255, 0.3);
+        margin: 60px 0 10px 0;
+    }
+    .nav a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(10, 71, 37);
+        font-size: 22px;
+    }
+    .nav a:hover{
+        color: rgb(10, 71, 37);
+        text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    }
+    .block{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        height: 500px;
+        background-image: url(../img/bgcart2.webp);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        box-shadow: 0px 0px 10px 5px  rgb(82, 152, 82);
+        margin: 5px 0 10px 0;
+    }
+    .emrtycart {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        font-size: 20px;
+        color: rgb(10, 71, 37);
+        background-color: white;
+        box-shadow: 0px 0px 10px 5px  rgb(255, 255, 255);
+        
+    }
+    .emrtycart img{
+        width: 150px;
+    }
+    .buy {
+        width: 100%;
+        height: 50px;
+        border: none;
+        background-image: linear-gradient(to top, rgb(10, 71, 37), rgb(255,255,255));
+        border: none;
+        color: white;
+        text-shadow: 1px 1px 2px rgb(255, 255, 255);
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+}
+

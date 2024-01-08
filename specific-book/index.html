@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+<script src="script/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -28,6 +29,7 @@
         </div>
     </header>
     <main>
+        <div id="hiddenCart"></div>
         <div class="center">
             <div class="nav" id="hidennav">
                 <a href="">Back</a>
@@ -47,15 +49,18 @@
                 </div>
                 </div>
                 </div>
-                <div class="form">
-                    <div id="price"><p>Price, $</p><p>255</p></div>
+                <div class="formphone"><div id="price"><p>Price, $</p><p id="priceId" class="pricesum">255</p></div>
+                <button id="buy">BUY</button>
+            </div>
+                <div class="form" id = "form">
+                    <div id="price"><p>Price, $</p><p id="priceId" class="pricesum">255</p></div>
                     <button id="buy">BUY</button>
-                    <div id="hide">
-                        <label for="Count">Count</label>
-                        <input type="number" id="Count" value="1" min="1">
+                    <div>
+                        <label for="count">Count</label>
+                        <input type="number" id="count" value="1" min="1">
                     </div>
-                    <div id="hide"><p>Total price:</p></div>
-                    <button type="submit" id="hide">Add to cart</button>
+                    <div><p>Total price:</p> <p id="totalPrice" class="pricesum"></p></div>
+                    <button type="submit">Add to cart</button>
                 </div>
             </div>
             <div class="aboutbook">
@@ -70,6 +75,7 @@
                 <a href="">Next</a>
             </div>
         </div>
+
     </main>
 </body>
 </html>

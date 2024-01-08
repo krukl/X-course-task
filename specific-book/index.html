@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript: The Definitive Guide, 7th Edition</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+<script src="script/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="center">
+        <div class="header">
+            <img src="img/Book.svg" alt="Book">
+            <h1>JS BAND STORE / Laba Olha</h1>
+        </div>
+        <div class="cart">
+            <a id="cart" href="../cart(0)/index.html"><img src="img/cart.svg" alt="cart"></a>
+            <a href="../index.html" id="sign">Sign-Out</a>
+            <a><img src="img/avatar.webp" alt="avatar"></a>
+            <p id="name">TestUser</p>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div id="hiddenCart"></div>
+        <div class="center">
+            <div class="nav" id="hidennav">
+                <a href="">Back</a>
+                <a href="">Return to the catalog</a>
+                <a href="">Next</a>
+            </div>
+            <div class="block">
+                <div class="book">
+                <div class="bookname"><h4>JavaScript: The Definitive Guide, 7th Edition</h4></div>
+                <div class="bookinfo"><img src="img/javascript_the_definitive_guide.webp" alt="namebook">
+                <div>
+                    <h4>Book author:</h4> <p> David Flanagan</p>
+                    <h4>Book level:</h4> <p> Beginer</p>
+                    <h4>Book tags: </h4> <p>"core",
+                        "frontend",
+                        "javascript"</p>
+                </div>
+                </div>
+                </div>
+                <div class="formphone"><div id="price"><p>Price, $</p><p id="priceId" class="pricesum">255</p></div>
+                <button id="buy">BUY</button>
+            </div>
+                <div class="form" id = "form">
+                    <div id="price"><p>Price, $</p><p id="priceId" class="pricesum">255</p></div>
+                    <button id="buy">BUY</button>
+                    <div>
+                        <label for="count">Count</label>
+                        <input type="number" id="count" value="1" min="1">
+                    </div>
+                    <div><p>Total price:</p> <p id="totalPrice" class="pricesum"></p></div>
+                    <button type="submit">Add to cart</button>
+                </div>
+            </div>
+            <div class="aboutbook">
+                <div class="description"><p> Description</p>
+                </div>
+                <div class="text"><p> JavaScript is the programming language of the web and is used by more software developers today than any other programming language. For nearly 25 years this best seller has been the go-to guide for JavaScript programmers. The seventh edition is fully updated to cover the 2020 version of JavaScript, and new chapters cover classes, modules, iterators, generators, Promises, async/await, and metaprogramming. 
+                You’ll find illuminating and engaging example code throughout. This book is for programmers who want to learn JavaScript and for web developers who want to take their understanding and mastery to the next level. It begins by explaining the JavaScript language itself, in detail, from the bottom up. It then builds on that foundation to cover the web platform and Node.js.</p></div>
+            </div>
+            <div class="nav">
+                <a href="">Back</a>
+                <a href="">Return to the catalog</a>
+                <a href="">Next</a>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>

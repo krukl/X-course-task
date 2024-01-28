@@ -1,0 +1,115 @@
+body{
+    background-image: url(../img/bg.webp);
+    background-size:  100% 1000px;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+@media screen and (min-width: 1025px) {
+header {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(10, 71, 37,0.9);
+    color: white;
+    position: fixed;
+}
+main{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+h1{
+    font-size: 25px;
+}
+p, label, a{
+    font-family: 'Merriweather', serif;
+}
+.header{
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 40%;
+}
+.header img{
+    width: 70px;
+}
+.center{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 0 10px;
+}
+.cart{
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 55%;
+    padding-right: 30px;
+}
+
+.cart img{
+    height: 50px;
+    margin: 0 20px 0 20px;
+}
+.cart #cart{
+    border-radius: 30px;
+}
+.cart #cart:hover{
+    background-color: rgb(255, 255, 255);
+
+}
+#sign{
+    width: 110px;
+    height: 30px;
+    background-color: rgb(82, 152, 82);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin: 0 20px 0 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+#sign:hover{
+    background-color: white;
+    color:  rgb(82, 152, 82);
+}
+.cart p{
+    font-size: 18px;
+    margin: 0 0 0 20px;
+}
+.allbook {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+aside {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+.block{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    background-color: white;
+}
+.book{
+    width: 100%;
+    height: 100%;
+    margin-left: 1%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 15px 0;
+}
+.onebook {
+    
+}
+}

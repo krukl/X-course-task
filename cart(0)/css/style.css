@@ -116,11 +116,11 @@ p, label, a{
     background-color: white;
     box-shadow: 0px 0px 10px 5px  rgb(255, 255, 255);
     margin: 2px;
+    z-index: 0;
     
 }
 .emrtycart img{
     width: 250px;
-    z-index: 0;
 }
 .buy {
     width: 100%;
@@ -243,11 +243,11 @@ p, label, a{
         color: rgb(10, 71, 37);
         background-color: white;
         box-shadow: 0px 0px 10px 5px  rgb(255, 255, 255);
+        z-index: 1;
         
     }
     .emrtycart img{
         width: 200px;
-        z-index: 0;
     }
     .buy {
         width: 100%;
@@ -269,7 +269,6 @@ p, label, a{
         background-color: rgba(10, 71, 37,0.9);
         color: white;
         position: fixed;
-        z-index: 1;
     }
     main{
         display: inline-flex;
@@ -332,7 +331,6 @@ p, label, a{
         text-decoration: none;
         text-align: center;
         padding: 5px;
-        font-family: ;
     }
     #sign:hover{
         background-color: white;
@@ -382,7 +380,6 @@ p, label, a{
     }
     .emrtycart img{
         width: 150px;
-        z-index: 0;
     }
     .buy {
         width: 100%;

@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS BAND STORE</title>
-    <link rel="stylesheet" type="text/css" href="сss/style.css">
+    <title>JavaScript: The Definitive Guide, 7th Edition</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+<script src="../catalog/catalog.js" defer></script>
+<script src="../utils/localStorageUtil.js" defer></script>
 <script src="script/script.js" defer></script>
+<script src="script/filter.js" defer></script>
 </head>
 <body>
     <header>
@@ -20,16 +23,40 @@
             <img src="img/Book.svg" alt="Book">
             <h1>JS BAND STORE</h1>
         </div>
+        <div class="cart">
+            <a id="cart" href="../cart(0)/index.html"><img src="img/cart.svg" alt="cart"></a>
+            <a href="../index.html" id="sign">Sign-Out</a>
+            <a><img src="img/avatar.webp" alt="avatar"></a>
+            <p id="name">TestUser</p>
+        </div>
         </div>
     </header>
     <main>
-        <div class="center">
-            <div class="block">
-            <img src="img/avatar.webp">
-            <form class="name" action="all-book/index.html"><p id="name">Username</p>
-                <input type="text" name="Username" placeholder="Username" id="username">
-                <button type="submit" id="submit">Sign in</button>
-            </form>
+        <div class= "allbook">
+        <div class="book">
+           <div class="search">
+            <div>
+                <h5>The title of the book</h4>
+                <input type="search" id="search">
+            </div>
+            <div class = "searchPrice">
+                <h5>Price</h5>
+                <div><input type="checkbox" id="5"><label for="5"> 0 - 5 $</label></div>
+                <div><input type="checkbox" id="10"><label for="10"> 6 - 10 $</label></div>
+                <div><input type="checkbox" id="15"><label for="15"> 11 - 15 $</label></div>
+                <div><input type="checkbox" id="20"><label for="20"> 16 - 20 $</label></div>
+                <div><input type="checkbox" id="25"><label for="25"> 21 - 25 $</label></div>
+                <div><input type="checkbox" id="30"><label for="30">26 - 30 $</label></div>
+                <div><input type="checkbox" id="35"><label for="35">31 - 35 $</label></div>
+                <div><input type="checkbox" id="40"><label for="40"> 36 - 40 $</label></div>
+                <div><input type="checkbox"  id="45"><label for="45"> 41 - 45 $</label></div>
+                <div><input type="checkbox"  id="50"><label for="50"> 46 - 50 $</label></div>
+            </div>
+           </div>
+        </div>
+        
+        <div class="block" id = "books">
+            
         </div>
     </div>
     </main>

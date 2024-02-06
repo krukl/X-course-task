@@ -22,7 +22,7 @@ main{
     width: 100%;
 }
 h1{
-    font-size: 25px;
+    font-size: 22px;
 }
 p, label, a{
     font-family: 'Merriweather', serif;
@@ -33,7 +33,7 @@ p, label, a{
     width: 40%;
 }
 .header img{
-    width: 70px;
+    width: 60px;
 }
 .center{
     display: inline-flex;
@@ -51,7 +51,7 @@ p, label, a{
 }
 
 .cart img{
-    height: 50px;
+    height: 40px;
     margin: 0 20px 0 20px;
 }
 #sign{

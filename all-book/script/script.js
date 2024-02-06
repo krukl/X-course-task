@@ -31,7 +31,7 @@ class Products {
             htmlCatalog.push( `
             <li id=${price}> 
             <p id="title">${title}</p>
-            <a href ="/specific-book/index.html"><img src="${image}" id="image"></a>
+            <a href ="specific-book/index.html"><img src="${image}" id="image"></a>
             <p id="author">${author}</p>
             <span id="price"><p >Price</p><p>${price} $</p></span>
             </li>`)

@@ -31,6 +31,8 @@ hidecount.addEventListener('keyup',hidesumPrice)
 hidecount.addEventListener('change',hidesumPrice)
 function hidesumPrice(){
     hidetotalPrice.innerHTML = hidepriceId * hidecount.value
+     if (hidecount.value > 25) {hidecount.value = 25} else if (hidecount.value < 1) {hidecount.value = 1} }
+    hidetotalPrice.innerHTML = hidepriceId * hidecount.value
 }
 let buttonClose = document.getElementById('close')
 buttonClose.addEventListener('click', () => hiddenCart.innerHTML = '')

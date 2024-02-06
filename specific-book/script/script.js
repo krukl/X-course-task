@@ -13,7 +13,7 @@ count.addEventListener('keyup',sumPrice)
 count.addEventListener('change',sumPrice)
 function sumPrice(){
     totalPrice.innerHTML = priceId * count.value
-    if (count.value > 25) {count.value = 25} else if (count.value < 1) {count.value = 1} }
+    if (count.value > 25) {count.value = 25} else if (count.value < 0) {count.value = 0} }
 totalPrice.innerHTML = priceId * count.value
 // button "buy"
 
@@ -31,7 +31,7 @@ hidecount.addEventListener('keyup',hidesumPrice)
 hidecount.addEventListener('change',hidesumPrice)
 function hidesumPrice(){
     hidetotalPrice.innerHTML = hidepriceId * hidecount.value
-     if (hidecount.value > 25) {hidecount.value = 25} else if (hidecount.value < 1) {hidecount.value = 1} }
+     if (hidecount.value > 25) {hidecount.value = 25} else if (hidecount.value < 0) {hidecount.value = 0} }
    totalPrice.innerHTML = priceId * count.value
 let buttonClose = document.getElementById('close')
 buttonClose.addEventListener('click', () => hiddenCart.innerHTML = '')

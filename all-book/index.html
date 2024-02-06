@@ -11,7 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+<script src="../catalog/catalog.js" defer></script>
+<script src="../utils/localStorageUtil.js" defer></script>
 <script src="script/script.js" defer></script>
+<script src="script/filter.js" defer></script>
 </head>
 <body>
     <header>
@@ -30,18 +33,30 @@
     </header>
     <main>
         <div class= "allbook">
-        <aside>
-            <div class="book">
+        <div class="book">
            <div class="search">
-            <input type="search">
-            <input type="range"name="price" min="0" max="5000" step="50">
+            <div>
+                <h5>The title of the book</h4>
+                <input type="search" id="search">
+            </div>
+            <div class = "searchPrice">
+                <h5>Price</h5>
+                <div><input type="checkbox" id="5"><label for="5"> 0 - 5 $</label></div>
+                <div><input type="checkbox" id="10"><label for="10"> 6 - 10 $</label></div>
+                <div><input type="checkbox" id="15"><label for="15"> 11 - 15 $</label></div>
+                <div><input type="checkbox" id="20"><label for="20"> 16 - 20 $</label></div>
+                <div><input type="checkbox" id="25"><label for="25"> 21 - 25 $</label></div>
+                <div><input type="checkbox" id="30"><label for="30">26 - 30 $</label></div>
+                <div><input type="checkbox" id="35"><label for="35">31 - 35 $</label></div>
+                <div><input type="checkbox" id="40"><label for="40"> 36 - 40 $</label></div>
+                <div><input type="checkbox"  id="45"><label for="45"> 41 - 45 $</label></div>
+                <div><input type="checkbox"  id="50"><label for="50"> 46 - 50 $</label></div>
+            </div>
            </div>
         </div>
-        </aside>
-        <div class="block">
-            <div class="onebook">
-                <a href="/signin/specific-book/index.html">dssffsf</a>
-            </div>
+        
+        <div class="block" id = "books">
+            
         </div>
     </div>
     </main>

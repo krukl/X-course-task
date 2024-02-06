@@ -28,95 +28,95 @@ class Products {
         let filterPrice50 = []
         catalog.forEach (({ id, author, price, image, title, shortDescription, description}) => {
 // ALL BOOK
-            htmlCatalog.push( `
+            htmlCatalog += `
             <li id=${price}> 
             <p id="title">${title}</p>
             <a href ="../specific-book/index.html"><img src="${image}" id="image"></a>
             <p id="author">${author}</p>
             <span id="price"><p >Price</p><p>${price} $</p></span>
-            </li>`)
+            </li>`
             
             
 // Filter to 10
-             if (price < 5) {
-                filterPrice5.push(`<li id=${price}> <a href="">
+            if (price < 5) {
+                filterPrice5 += `<li id=${price}> <a href="">
                     <p id="title">${title}</p>
                     <img src="${image}" id="image">
                     <p id="author">${author}</p>
                     <span id="price"><p >Price</p><p>${price} $</p></span>
-                    </a></li>`)
+                    </a></li>`
             } 
             else if (price > 5 && price <= 10 ) {
-                filterPrice10.push(`<li id=${price}> 
+                filterPrice10 += `<li id=${price}> 
                     <p id="title">${title}</p>
                     <img src="${image}" id="image">
                     <p id="author">${author}</p>
                     <span id="price"><p >Price</p><p>${price} $</p></span>
-                    </li>`)
+                    </li>`
             } 
             else if (price > 10 && price <= 15) {
-                filterPrice15.push(`<li id=${price}> 
+                filterPrice15 += `<li id=${price}> 
                     <p id="title">${title}</p>
                     <img src="${image}" id="image">
                     <p id="author">${author}</p>
                     <span id="price"><p >Price</p><p>${price} $</p></span>
-                    </li>`)
+                    </li>`
             } 
             else if (price > 15 && price <= 20) {
-                filterPrice20.push(`<li id=${price}> 
+                filterPrice20 += `<li id=${price}> 
                     <p id="title">${title}</p>
                     <img src="${image}" id="image">
                     <p id="author">${author}</p>
                     <span id="price"><p >Price</p><p>${price} $</p></span>
-                    </li>`)
+                    </li>`
             } 
             else if (price > 20 && price <= 25) {
-                filterPrice25.push(`<li id=${price}> 
+                filterPrice25 += `<li id=${price}> 
                     <p id="title">${title}</p>
                     <img src="${image}" id="image">
                     <p id="author">${author}</p>
                     <span id="price"><p >Price</p><p>${price} $</p></span>
-                    </li>`)
+                    </li>`
             } 
             else if (price > 25 && price <= 30) {
-                filterPrice30.push(`<li id=${price}> 
+                filterPrice30 += `<li id=${price}> 
                     <p id="title">${title}</p>
                     <img src="${image}" id="image">
                     <p id="author">${author}</p>
                     <span id="price"><p >Price</p><p>${price} $</p></span>
-                    </li>`)
+                    </li>`
             } 
             else if (price > 30 && price <= 35) {
-                filterPrice35.push(`<li id=${price}> 
+                filterPrice35 += `<li id=${price}> 
                     <p id="title">${title}</p>
                     <img src="${image}" id="image">
                     <p id="author">${author}</p>
                     <span id="price"><p >Price</p><p>${price} $</p></span>
-                    </li>`)
+                    </li>`
             } 
             else if (price > 35 && price <= 40) {
-                filterPrice40.push(`<li id=${price}> 
+                filterPrice40 += `<li id=${price}> 
                     <p id="title">${title}</p>
                     <img src="${image}" id="image">
                     <p id="author">${author}</p>
                     <span id="price"><p >Price</p><p>${price} $</p></span>
-                    </li>`)
+                    </li>`
             } 
             else if (price > 40 && price <= 45) {
-                filterPrice45.push(`<li id=${price}> 
+                filterPrice45 += `<li id=${price}> 
                     <p id="title">${title}</p>
                     <img src="${image}" id="image">
                     <p id="author">${author}</p>
                     <span id="price"><p >Price</p><p>${price} $</p></span>
-                    </li>`)
+                    </li>`
             } 
             else if (price > 45) {
-                filterPrice50.push(`<li id=${price}> 
+                filterPrice50 += `<li id=${price}> 
                     <p id="title">${title}</p>
                     <img src="${image}" id="image">
                     <p id="author">${author}</p>
                     <span id="price"><p >Price</p><p>${price} $</p></span>
-                    </li>`)
+                    </li>`
             } 
 
        

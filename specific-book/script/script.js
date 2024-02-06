@@ -8,13 +8,13 @@ name.innerHTML = sessionStorage.getItem('my-input_save')
 let priceId = document.getElementById('priceId').textContent
 let count = document.getElementById('count')
 let totalPrice = document.getElementById('totalPrice')
-totalPrice.innerHTML = priceId * count.value
+
 count.addEventListener('keyup',sumPrice)
 count.addEventListener('change',sumPrice)
 function sumPrice(){
     totalPrice.innerHTML = priceId * count.value
-}
-
+    if (count.value > 25) {count.value = 25} else if (count.value < 1) {count.value = 1} }
+    totalPrice.innerHTML = priceId * count.value
 // button "buy"
 
 let buy =  document.getElementById('buy')

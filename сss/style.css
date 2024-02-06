@@ -21,7 +21,7 @@ main{
     width: 100%;
 }
 h1{
-    font-size: 25px;
+    font-size: 22px;
 }
 p, label{
     font-family: 'Merriweather', serif;
@@ -32,7 +32,7 @@ p, label{
     width: 100%
 }
 .header img{
-    width: 70px;
+    width: 60px;
 }
 .center{
     display: inline-flex;
@@ -197,4 +197,5 @@ p, label{
         color: rgb(10, 71, 37);
         text-shadow: 1px 1px 2px rgb(255, 255, 255);
     }
+    
 }
